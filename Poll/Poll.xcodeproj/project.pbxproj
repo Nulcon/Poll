@@ -15,6 +15,8 @@
 		13DBBB79210A54590082FD96 /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB78210A54590082FD96 /* VoteController.swift */; };
 		13DBBB7C210A57590082FD96 /* Voting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DBBB7B210A57590082FD96 /* Voting.storyboard */; };
 		13DBBB7F210A58FA0082FD96 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB7E210A58FA0082FD96 /* VotingViewController.swift */; };
+		13DBBB81210A5A3E0082FD96 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DBBB80210A5A3E0082FD96 /* Results.storyboard */; };
+		13DBBB83210A5AA20082FD96 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB82210A5AA20082FD96 /* ResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		13DBBB78210A54590082FD96 /* VoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
 		13DBBB7B210A57590082FD96 /* Voting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Voting.storyboard; sourceTree = "<group>"; };
 		13DBBB7E210A58FA0082FD96 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		13DBBB80210A5A3E0082FD96 /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
+		13DBBB82210A5AA20082FD96 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			children = (
 				13DBBB65210A53DA0082FD96 /* Main.storyboard */,
 				13DBBB7B210A57590082FD96 /* Voting.storyboard */,
+				13DBBB80210A5A3E0082FD96 /* Results.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				13DBBB7E210A58FA0082FD96 /* VotingViewController.swift */,
+				13DBBB82210A5AA20082FD96 /* ResultsTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13DBBB6C210A53DA0082FD96 /* LaunchScreen.storyboard in Resources */,
+				13DBBB81210A5A3E0082FD96 /* Results.storyboard in Resources */,
 				13DBBB69210A53DA0082FD96 /* Assets.xcassets in Resources */,
 				13DBBB67210A53DA0082FD96 /* Main.storyboard in Resources */,
 				13DBBB7C210A57590082FD96 /* Voting.storyboard in Resources */,
@@ -181,6 +188,7 @@
 				13DBBB76210A54230082FD96 /* Vote.swift in Sources */,
 				13DBBB62210A53DA0082FD96 /* AppDelegate.swift in Sources */,
 				13DBBB7F210A58FA0082FD96 /* VotingViewController.swift in Sources */,
+				13DBBB83210A5AA20082FD96 /* ResultsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
