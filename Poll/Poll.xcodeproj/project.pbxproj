@@ -14,6 +14,7 @@
 		13DBBB76210A54230082FD96 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB75210A54230082FD96 /* Vote.swift */; };
 		13DBBB79210A54590082FD96 /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB78210A54590082FD96 /* VoteController.swift */; };
 		13DBBB7C210A57590082FD96 /* Voting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DBBB7B210A57590082FD96 /* Voting.storyboard */; };
+		13DBBB7F210A58FA0082FD96 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB7E210A58FA0082FD96 /* VotingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		13DBBB75210A54230082FD96 /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
 		13DBBB78210A54590082FD96 /* VoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
 		13DBBB7B210A57590082FD96 /* Voting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Voting.storyboard; sourceTree = "<group>"; };
+		13DBBB7E210A58FA0082FD96 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		13DBBB60210A53D90082FD96 /* Poll */ = {
 			isa = PBXGroup;
 			children = (
+				13DBBB7D210A58DA0082FD96 /* View Controllers */,
 				13DBBB7A210A55DD0082FD96 /* Storyboards */,
 				13DBBB77210A54450082FD96 /* Model Controllers */,
 				13DBBB74210A54120082FD96 /* Models */,
@@ -92,6 +95,14 @@
 				13DBBB7B210A57590082FD96 /* Voting.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		13DBBB7D210A58DA0082FD96 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13DBBB7E210A58FA0082FD96 /* VotingViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				13DBBB79210A54590082FD96 /* VoteController.swift in Sources */,
 				13DBBB76210A54230082FD96 /* Vote.swift in Sources */,
 				13DBBB62210A53DA0082FD96 /* AppDelegate.swift in Sources */,
+				13DBBB7F210A58FA0082FD96 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
