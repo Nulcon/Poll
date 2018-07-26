@@ -19,6 +19,7 @@
 		13DBBB83210A5AA20082FD96 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB82210A5AA20082FD96 /* ResultsTableViewController.swift */; };
 		13DBBB85210A5B480082FD96 /* Combined.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DBBB84210A5B480082FD96 /* Combined.storyboard */; };
 		13DBBB87210A5C750082FD96 /* CombinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB86210A5C750082FD96 /* CombinedViewController.swift */; };
+		13DBBB89210A5F580082FD96 /* PollingTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBBB88210A5F580082FD96 /* PollingTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		13DBBB82210A5AA20082FD96 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		13DBBB84210A5B480082FD96 /* Combined.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Combined.storyboard; sourceTree = "<group>"; };
 		13DBBB86210A5C750082FD96 /* CombinedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedViewController.swift; sourceTree = "<group>"; };
+		13DBBB88210A5F580082FD96 /* PollingTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				13DBBB7E210A58FA0082FD96 /* VotingViewController.swift */,
 				13DBBB82210A5AA20082FD96 /* ResultsTableViewController.swift */,
 				13DBBB86210A5C750082FD96 /* CombinedViewController.swift */,
+				13DBBB88210A5F580082FD96 /* PollingTabBarViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				13DBBB7F210A58FA0082FD96 /* VotingViewController.swift in Sources */,
 				13DBBB83210A5AA20082FD96 /* ResultsTableViewController.swift in Sources */,
 				13DBBB87210A5C750082FD96 /* CombinedViewController.swift in Sources */,
+				13DBBB89210A5F580082FD96 /* PollingTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
