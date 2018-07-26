@@ -14,7 +14,17 @@ class PollingTabBarViewController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        passVoteControllerToChildViewControllers()
     }
+    
+    func passVoteControllerToChildViewControllers() {
+        for childController in children {
+            if let vc = childController as? VoteControllerProtocol {
+                vc.voteController = voteController
+            }
+        }
+    }
+    
     
 
     /*
@@ -26,5 +36,8 @@ class PollingTabBarViewController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    // MARK: - Properties
+    let voteController: VoteController?
 
 }
