@@ -9,10 +9,8 @@
 import Foundation
 
 class VoteController {
-    
     func createVote(name: String, response: String) {
-        let vote = Vote(name: name, response: response)
-        votes.append(vote)
+        votes.append(Vote(name: name, response: response))
     }
     
     var votes: [Vote] = []

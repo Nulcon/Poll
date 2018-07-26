@@ -22,7 +22,7 @@ class ResultsTableViewController: UITableViewController, VoteControllerProtocol 
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "VoteCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ResultCell", for: indexPath)
         let vote = voteController?.votes[indexPath.row]
         cell.textLabel?.text = vote?.name
         cell.detailTextLabel?.text = vote?.response
